@@ -1,0 +1,203 @@
+
+
+.carousel {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide-container {
+    display: flex;
+    animation: slide 20s infinite; /* Change timing as needed */
+}
+
+.slide {
+    flex: 0 0 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@keyframes slide {
+    0%, 100% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-200%);
+
+    }
+
+    75% {
+        transform: translateX(-300%);
+    }
+}
+
+.pic_Main {
+    margin: 0 auto;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+.imageRight{
+    width: 300px;
+    float: right;
+}
+
+body {
+    min-width: 1000px;
+    margin: 0 auto;
+    font-size: 14px;
+    background: #b6ff00;
+    text-align: justify;
+    position: relative;
+    font-family: AkayaTelivigal;
+}
+
+h1, h2, h3 {
+    font-weight: 500;
+    font-style: oblique;
+    font-family: AkayaTelivigal;
+}
+
+img {
+    border: none;
+}
+
+a {
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+em {
+    font-style: normal;
+}
+
+.lt {
+    float: left;
+}
+
+.rt {
+    float: right;
+
+}
+
+.down {
+position : absolute;
+
+}
+.wrapin {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner {
+    display: block;
+}
+
+    .banner img {
+        display: block;
+        width: 100%;
+    }
+
+.in_com {
+    background: #f2f4ba;
+    padding: 15px;
+    display: block;
+}
+
+.con_top .pic {
+    width: 300px;
+    float: left;
+}
+
+    .con_top .pic img {
+        width: 100%;
+    }
+
+.con_top .text {
+    float: right;
+    width: 650px;
+    line-height: 28px;
+    color: #333;
+}
+
+.title {
+    background: #6c9603;
+    line-height: 40px;
+    padding: 0 15px;
+    margin: 20px 0;
+    font-style: oblique;
+    font-family: AkayaTelivigal;
+}
+
+    .title h2 {
+        font-size: 20px;
+        color: #fff;
+    }
+
+.text_a {
+    line-height: 28px;
+    color: #333;
+}
+
+    .text_a img {
+        margin-left: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
